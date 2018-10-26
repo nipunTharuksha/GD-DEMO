@@ -10,7 +10,7 @@
     <body>
         <div class="container-fluid bg bg-transparent mt-4" id="divbg">
             <div class="container font-weight-bold">
-                <!--Navigation bar-->
+                <!--Navigation bar ismisi-->
                     <?php include("includefiles/navigationbar.php"); ?>
                     <!--End of Navigation bar-->
                     
