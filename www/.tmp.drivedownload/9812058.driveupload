@@ -1,0 +1,30 @@
+<?php 
+	$server_name = "localhost";
+	$user_name = "root";
+	$password = "";
+	$db_name = "paperformance";
+	
+	$con = mysqli_connect($server_name,$user_name,$password,$db_name);
+	
+	$sql = "select ct_dc_com_num from pa_info02";
+	
+	$result = mysqli_query($con,$sql);
+	
+	$count = mysqli_num_rows($result);
+	
+
+?>
+
+<html>
+	<head><head>
+	<body>
+		ID : 	<select>
+					<?php while($row = mysqli_fetch_array($result,MYSQLI_ASSOC)){
+						//var_dump($row);
+						echo "<option>".$row["ct_dc_com_num"]."</option>";
+					} ?>
+					
+					
+				</select>
+	</body>
+</html>

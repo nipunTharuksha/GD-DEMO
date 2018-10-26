@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "im"
+		},
+		{
+			"path": "php"
+		}
+	],
+	"settings": {
+		"editor.formatOnType": true,
+		"javascript.format.placeOpenBraceOnNewLineForControlBlocks": true,
+		"javascript.format.placeOpenBraceOnNewLineForFunctions": true,
+		"typescript.format.insertSpaceAfterTypeAssertion": true
+	}
+}
